@@ -10,4 +10,4 @@ This Repository is for providing a brief explanation on how to setup disposable 
 * Patience
 
 
-![alt text](./images/VirtualBox.png)
+![VirtualBox](https://github.com/jck4/Disposable/blob/master/images/virtualbox.PNG)
