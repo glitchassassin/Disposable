@@ -18,10 +18,6 @@ This Repository is for providing a brief explanation on how to setup disposable 
 #### Vagrant
 * Vagrant Downloads: https://www.vagrantup.com/downloads.html
 
-#### Ubuntu iso
-* We will be using Ubuntu 18.04 LTS as our base image.
-
-* Download link for the iso: http://releases.ubuntu.com/18.04.1/ubuntu-18.04.1-desktop-amd64.iso
 ---
 
 ## Using Vagrant to spin up a base image
