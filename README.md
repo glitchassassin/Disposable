@@ -47,6 +47,9 @@ From this point you can make whatever changes you want to this box and repackage
 #### Bootstrapping the VM
 If you don't want to add things and repackage the box, you can run inline or external bash scripts from the Vagrant file. You can throw any necessary apt packages that you may need into the `script.sh` file.
 
+#### File Syncing
+You can sync your local computer files with a directory in the VM for local files that you don't want to destroy. For this repository all of the files are in the local `synced` directory. This can be changed in the Vagrantfile
+
 ---
 
 ## Repackaging
@@ -70,6 +73,6 @@ vagrant package --output newbox.box
 # Feel free to replace newbox with whatever you want to name it.
 vagrant box add newbox newbox.box
 ```
-
+---
 ## Wrapping up
 If Vagrant is something that you enjoy using, I suggest to check out the documenation on it. Vagrant is a very powerful tool for making hacker lives easier: https://www.vagrantup.com/docs/index.html
